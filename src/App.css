@@ -1,3 +1,26 @@
+/* .mt-3 {
+  margin-top: 15px;
+  /*  margin-left: 30px; */
+/*  margin-right: 30px; */
+
+/* .ml-3 {
+  margin-left: 40px;
+}
+.mr-3 {
+  margin-right: 30px;
+} */
+
+/* .navbar-brand {
+  font-size: 30px !important;
+} */
+.btn-space {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 150px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

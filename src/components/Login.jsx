@@ -34,13 +34,15 @@ class Login extends Component {
             <div className="alert alert-warning">Invalid data!</div>
           )}
           {/* {this.state.hasLoginSuccess && <div>Success logging!</div>} */}
+          User Name: {""}
           <input
             type="text"
             name="username"
             placeholder="Type your username"
             value={this.state.username}
             onChange={this.handleChange}
-          />
+          />{" "}
+          {""} Password: {""}
           <input
             type="password"
             name="password"
@@ -48,7 +50,10 @@ class Login extends Component {
             value={this.state.password}
             onChange={this.handleChange}
           />
-          <button className="btn btn-success" onClick={this.loginClicked}>
+          <button
+            className="btn btn-space btn-md btn-success"
+            onClick={this.loginClicked}
+          >
             Login
           </button>
         </div>
